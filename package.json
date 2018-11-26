@@ -1,0 +1,20 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "a vanilla express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-Milton/basic-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryan-Milton/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/Ryan-Milton/basic-express-server#readme"
+}
