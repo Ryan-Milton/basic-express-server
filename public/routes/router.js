@@ -1,12 +1,14 @@
 'use strict';
 
+const content = require('../../content.json');
+
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res) => res.send('Hello'));
+router.get('/', (req, res) => res.send('Server Home'));
 
-router.post('/save', (req, res) => {
-  res.send(JSON.stringify(req.route));
+router.get('/content', (req, res) => {
+  res.send(content);
 });
 
 router.get('*', (req, res) => {
